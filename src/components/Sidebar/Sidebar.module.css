@@ -1,0 +1,32 @@
+.sidebar {
+  width: 30vw;
+}
+.sideitembox {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+}
+.sideitembox img {
+  width: 24px;
+  height: 24px;
+  margin: 4px 10px;
+  cursor: pointer;
+}
+.sideitembox span {
+  color: #202124;
+  margin-left: 10px;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .sidebar {
+    width: 14vw;
+  }
+  .sideitembox {
+    flex-wrap: wrap;
+  }
+}
