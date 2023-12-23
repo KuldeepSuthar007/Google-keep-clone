@@ -37,7 +37,6 @@ function Home() {
     }
 
     const handleShowNote = (note) => {
-        console.log(note);
         setShowNote(true);
         setSelectedNote(note);
     };
